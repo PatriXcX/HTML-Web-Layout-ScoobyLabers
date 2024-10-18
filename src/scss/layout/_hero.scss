@@ -1,84 +1,81 @@
 ._hero_section {
-    display: block;
-    padding-bottom: 10%;
-    margin-top: auto;
+  display: block;
+  padding-bottom: 10%;
+  margin-top: auto;
 }
 
 ._hero_box {
-    position: absolute;
-    transform: translateY(-50%);
-    background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 3%;
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3%;
 }
 
 ._hero_title {
-    text-align: left;
-    font-family: $font_opensans;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 1.39;
+  text-align: center;
+  font-family: $font_opensans;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.39;
 }
 
 ._hero_background_image {
-    background-image: url(/images/scooby_doo_w_background.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 750px;
+  background-image: url(/images/scooby_doo_w_background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 750px;
 }
 
-@media (min-width: 760px){
-    ._hero_section{
-        padding-bottom: 0;
-    }
-    ._hero_box {
-        background-color: rgba(240, 248, 255, 0.664);
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        transform: translateY(-100%);
-        margin-left: 10%;
-        margin-right: 20%;
-    }
+@media (min-width: 760px) {
+  ._hero_section {
+    padding-bottom: 0;
+  }
+  ._hero_box {
+    background-color: rgba(240, 248, 255, 0.664);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transform: translateY(-100%);
+    margin-left: 10%;
+    margin-right: 20%;
+  }
 
-    ._hero_title {
-        font-size: 18px;
-        line-height: 1.6; 
-    }
+  ._hero_title {
+    font-size: 18px;
+    line-height: 1.6;
+  }
 
-    ._hero_background_image {
-        height: 750px;
-    }
+  ._hero_background_image {
+    height: 750px;
+  }
 }
 
 @media (min-width: 1200px) {
-    ._hero_section{
-        padding-bottom: 0;
-    }
-    ._hero_box {
-        background-color: rgba(240, 248, 255, 0.664);
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-left: 10%;
-        margin-right: 20%;
-        transform: translateY(-100%);
-    }
+  ._hero_section {
+    padding-bottom: 0;
+  }
+  ._hero_box {
+    background-color: rgba(240, 248, 255, 0.664);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 20%;
+    transform: translateY(-100%);
+  }
 
+  ._hero_title {
+    font-size: 24px;
+    line-height: 1.9;
+  }
 
-    ._hero_title {
-        font-size: 24px;
-        line-height: 1.9; 
-    }
-
-    ._hero_background_image {
-        height: 850px;
-
-    }
-
+  ._hero_background_image {
+    height: 850px;
+  }
 }
